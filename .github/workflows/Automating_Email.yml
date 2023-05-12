@@ -28,13 +28,13 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ secrets.GMAIL_USERNAME }}
-          password: ${{ secrets.GMAIL_PASSWORD }}
+          username: ${{ secrets.trecydsouza95@gmail.com }}
+          password: ${{ secrets.Trecy@1995 }}
           subject: 'Monthly update'
           body: 'Hello, this is your monthly update.'
-          to: ${{ secrets.TO_EMAIL }}
-          from: ${{ secrets.FROM_EMAIL }}
+          to: ${{ secrets.priston.dsouza7@gmail.com }}
+          from: ${{ secrets.trecydsouza95@gmail.com }}
         env:
-          PASS: ${{ secrets.GMAIL_PASSWORD }}
+          PASS: ${{ secrets.Trecy@1995 }}
 
         
