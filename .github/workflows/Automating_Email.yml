@@ -4,7 +4,7 @@ on:
   schedule:
     # Run the job every month on the first day of the month at 9:00 AM UTC
     - cron: '0 9 1 * *'
-    workflow_dipatch:
+  workflow_dispatch:
 
 jobs:
   send-email:
@@ -36,5 +36,6 @@ jobs:
           from: ${{ secrets.trecydsouza95@gmail.com }}
         env:
           PASS: ${{ secrets.Trecy@1995 }}
+
 
         
